@@ -1,0 +1,9 @@
+<% @models.each do |m| %>
+<a href="#TOMODEL">
+<div class="span2 model">
+  <img src="https://lh5.ggpht.com/-3EVQszsFCscoZDSn2j6kuiRbCzycpDvmNh_Mrg9_g-LJM2Q_qQRNNlHjwdtjXRyOg=w170" class="img-rounded"><br/>
+  <strong><%= m.name %></strong><br/>
+  <em>by: <%= m.user.name %></em>
+</div>
+</a>
+<% end %>

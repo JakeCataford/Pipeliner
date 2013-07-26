@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  number: 1
+  model_id: 1
+  mesh_id: 1
+  diffuse: 1
+  normalmap: 1
+  specular: 1
+
+two:
+  number: 1
+  model_id: 1
+  mesh_id: 1
+  diffuse: 1
+  normalmap: 1
+  specular: 1

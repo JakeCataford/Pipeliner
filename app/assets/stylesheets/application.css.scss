@@ -1,0 +1,99 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+@import "bootstrap";
+html {
+  height: 100%;
+  background-color:#454545;
+}
+body { padding-top: 65px;}
+@import "bootstrap-responsive";
+
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+html, body, main, .container {
+  background-color: #454545;
+  height: 100%;
+}
+
+.brand:hover {
+  background: none;
+  opacity: 0.5;
+}
+
+.navbar-inner {
+  background: #1c74b1;
+  border: none;
+}
+
+.header-img {
+  height: 45px;
+}
+
+.nav-container {
+  width: 100%;
+}
+
+.content {
+  background: #ebebeb;
+  padding: 11px;
+}
+
+.canvas-zone {
+  position: fixed
+}
+
+
+
+.container {
+  width: 1225px
+}
+
+.highlight-text {
+  color: #276b0c;
+}
+
+.container-fluid {
+  padding:0px;
+}
+
+.navbar .nav > li > a {
+  float: none;
+  padding: 24px 15px 21px;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-shadow:none;
+}
+
+.btn:visited {
+  color:#FFFFFF;
+}
+
+#login {
+  margin:7px
+}
+
+#login em {
+  color:#ffffff;
+  margin:15px;
+}
+
+.avatar {
+  padding:3px;
+  vertical-align: middle
+}
+

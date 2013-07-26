@@ -1,0 +1,473 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"un",
+				"unsubscribe"
+			],
+			[
+				"di",
+				"distinct"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"opt",
+				"OPTARG"
+			],
+			[
+				"PA",
+				"PATH_TO_ADMIN"
+			],
+			[
+				"PATH",
+				"PATH_TO_POS"
+			],
+			[
+				"POIN",
+				"PointOfSale"
+			],
+			[
+				"APP",
+				"APP_NAME"
+			],
+			[
+				"cont",
+				"controllers"
+			],
+			[
+				"sho",
+				"shopify-ios-core"
+			],
+			[
+				"S",
+				"ShopifyAdmin"
+			],
+			[
+				"comm",
+				"pre-commit"
+			],
+			[
+				"projec",
+				"project-file-sort"
+			],
+			[
+				"pre",
+				"pre-commit"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1511,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/application.css.scss",
+			"settings":
+			{
+				"buffer_size": 1338,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/javascripts/application.js",
+			"settings":
+			{
+				"buffer_size": 687,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 280,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/initializers/google_auth.rb",
+			"settings":
+			{
+				"buffer_size": 125,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/JakeCataford/code/Testers-Union/config/application.rb",
+		"/Users/JakeCataford/code/Testers-Union/app/assets/stylesheets/application.css.scss",
+		"/Users/JakeCataford/code/Testers-Union/app/views/layouts/application.html.erb",
+		"/Users/JakeCataford/code/Testers-Union/app/views/layouts/_messages.html.erb",
+		"/Users/JakeCataford/code/Testers-Union/app/views/layouts/_navigation.html.erb",
+		"/Users/JakeCataford/code/Testers-Union/config/routes.rb",
+		"/Users/JakeCataford/code/Testers-Union/app/helpers/application_helper.rb",
+		"/Users/JakeCataford/code/Testers-Union/app/views/leads/index.html.erb",
+		"/Users/JakeCataford/code/Testers-Union/app/views/dashboard/index.html.erb",
+		"/Users/JakeCataford/code/Testers-Union/app/controllers/dashboard_controller.rb",
+		"/Users/JakeCataford/code/Testers-Union/app/views/leads/_form.html.erb",
+		"/Users/JakeCataford/code/Testers-Union/app/models/lead.rb",
+		"/Users/JakeCataford/code/Testers-Union/db/schema.rb",
+		"/Users/JakeCataford/code/Testers-Union/app/models/token.rb",
+		"/Users/JakeCataford/code/Testers-Union/db/migrate/20130716183753_create_tokens.rb",
+		"/Users/JakeCataford/code/Testers-Union/config/initializers/google_auth.rb",
+		"/Users/JakeCataford/code/Testers-Union/app/models/user.rb",
+		"/Users/JakeCataford/code/Testers-Union/app/controllers/application_controller.rb",
+		"/Users/JakeCataford/code/Testers-Union/config/database.yml",
+		"/Users/JakeCataford/Desktop/export.sql",
+		"/Users/JakeCataford/code/Testers-Union/db/migrate/20130724210439_adds_user_id_to_tokens.rb",
+		"/Users/JakeCataford/code/Testers-Union/app/controllers/leads_controller.rb",
+		"/Users/JakeCataford/code/Testers-Union/app/assets/stylesheets/signup.css.scss",
+		"/Users/JakeCataford/code/Testers-Union/app/views/signup/index.html.erb",
+		"/Users/JakeCataford/code/Testers-Union/lib/tasks/tasks.rake",
+		"/Users/JakeCataford/code/Testers-Union/app/assets/javascripts/application.js",
+		"/Users/JakeCataford/code/Testers-Union/app/controllers/token_controller.rb",
+		"/Users/JakeCataford/code/Testers-Union/Gemfile",
+		"/Users/JakeCataford/Desktop/buildify.sh",
+		"/Users/JakeCataford/code/Testers-Union/app/assets/stylesheets/application.css",
+		"/Users/JakeCataford/code/Testers-Union/db/migrate/20130709210218_create_leads.rb",
+		"/Users/JakeCataford/code/Testers-Union/db/migrate/20130710205245_create_abgroups.rb",
+		"/Users/JakeCataford/code/ios-point-of-sale/ShopifyPointOfSale.xcworkspace/xcshareddata/ShopifyPointOfSale.xccheckout",
+		"/Users/JakeCataford/code/Testers-Union/test/fixtures/leads.yml",
+		"/Users/JakeCataford/code/Testers-Union/db/development.sqlite3",
+		"/Users/JakeCataford/code/Testers-Union/config/initializers/devise.rb",
+		"/Users/JakeCataford/code/Testers-Union/app/controllers/omniauth_callbacks_controller.rb",
+		"/private/tmp/shopify-local/shopify/lib/store_export/staging_importer.rb",
+		"/private/tmp/shopify-local/shopify/lib/development_support/shop_builder.rb",
+		"/Users/JakeCataford/code/shopify/Rakefile",
+		"/Users/JakeCataford/code/BeFit/Mobilisk-BeFit/assets/www/libs/jquery.mobile.custom.js",
+		"/Users/JakeCataford/code/BeFit/Mobilisk-BeFit/assets/www/libs/jquery.mobile.custom.min.js",
+		"/Users/JakeCataford/code/BeFit/Mobilisk-BeFit/assets/www/libs/jquery.mobile.custom.structure.css",
+		"/Users/JakeCataford/code/BeFit/Mobilisk-BeFit/assets/www/libs/jquery.mobile.custom.structure.min.css",
+		"/Users/JakeCataford/code/BeFit/Mobilisk-BeFit/assets/www/libs/jquery.mobile.custom.theme.css",
+		"/Users/JakeCataford/code/BeFit/Mobilisk-BeFit/assets/www/libs/jquery.mobile.custom.theme.min.css",
+		"/Users/JakeCataford/code/shopify-ios-admin/setup.sh",
+		"/Users/JakeCataford/code/ios-point-of-sale/setup.sh",
+		"/Users/JakeCataford/code/shopify/config/environments/development.rb",
+		"/Users/JakeCataford/code/shopify/app/controllers/admin_area_controller.rb",
+		"/Users/JakeCataford/code/shopify/app/controllers/admin_area_controller.rbrb",
+		"/Users/JakeCataford/Desktop/gfdbpseudo",
+		"/Users/JakeCataford/code/shopify/app/services/shop_manager.rb",
+		"/Users/JakeCataford/code/shopify/app/controllers/application_controller.rb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"letter_opener",
+			"\\n",
+			"\"",
+			"'",
+			"\\(\\d\\d,\\s",
+			",\\s'\\b[0-9]+\\-[0-9]+\\-[0-9]+ [0-9].......'",
+			" /",
+			"0.0.0.0",
+			"PointOfSale",
+			"ShopifyAdmin/Libraries/shopify-ios-sdk/",
+			"shop1",
+			"include",
+			"shopcan",
+			"init",
+			"load_firs",
+			"ShopManager",
+			"ShopManager.load_first_store"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			" ",
+			"'",
+			"\"",
+			"(",
+			"",
+			"ShopifyAdmin",
+			"${PATH_TO_IOS_SDK}",
+			"joshuatessier"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 1511,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								129,
+								129
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/assets/stylesheets/application.css.scss",
+					"settings":
+					{
+						"buffer_size": 1338,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								547,
+								547
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/assets/javascripts/application.js",
+					"settings":
+					{
+						"buffer_size": 687,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								643,
+								643
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 280,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								280,
+								280
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "config/initializers/google_auth.rb",
+					"settings":
+					{
+						"buffer_size": 125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								75,
+								75
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"devise",
+				"config/initializers/devise.rb"
+			],
+			[
+				"import",
+				"lib/store_export/staging_importer.rb"
+			],
+			[
+				"shopbuil",
+				"lib/development_support/shop_builder.rb"
+			],
+			[
+				"deve",
+				"config/environments/development.rb"
+			],
+			[
+				"applica",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"shopmanager",
+				"app/services/shop_manager.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 246.0,
+	"status_bar_visible": true
+}

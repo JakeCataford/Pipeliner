@@ -1,0 +1,73 @@
+
+<div id="padfix">
+  <div class="span3 sidebar pull-right">
+    <table class="table">
+      <tbody>
+        <tr>
+          <td></td>
+          <td>
+            <strong> Comments </strong>
+          </td>
+        </tr>
+
+        <% @revisions.each_with_index do |r,i| %>
+        <tr style="background:#FFFFFF">
+          <td></td>
+          <td style="text-align:right"><small ><em>Revision <%=i + 1%></em></small></td> 
+        </tr>
+
+
+        <% Comment.find_all_by_revision_id(r.id).each do |c| %>
+        <tr>
+          <td class="avatar">
+            <a href="#" data-toggle="tooltip" data-placement="left" title="<%= c.user.name %>">
+              <img src="<%= c.user.gravatar_url(50) %>" class="img-rounded"/><br/>
+            </a>
+          </td>
+          <td><%= c.message %></td>
+        </tr>
+        <% end %>
+        <% end %>
+
+        <tr id="create-comment">
+          <td class="avatar">
+            <a href="#" data-toggle="tooltip" data-placement="left" title="You">
+              <img src="<%= User.find(session[:user_id]).gravatar_url(50) %>" class="img-rounded"/><br/>
+            </a>
+          </td>
+          <td>
+            <form action="/comment/create/" method="post" id='comment-form'>
+              <input type="Text" name="comment[revision_id]" value="<%= @revisions.last.id %>" style="display:none"/>
+              <input type="Text" name="comment[message]" placeholder="Comment on this revision." required/>
+              <input type="submit" />
+            </form>
+          </td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td>
+            <strong>Tasks</strong>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div> 
+
+  <div class="canvas-zone">
+    <div class="content">
+      <div id="unityPlayer">
+        <div class="missing">
+          <a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
+            <img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63" />
+          </a>
+        </div>
+        <div class="broken">
+          <a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now! Restart your browser after install.">
+            <img alt="Unity Web Player. Install now! Restart your browser after install." src="http://webplayer.unity3d.com/installation/getunityrestart.png" width="193" height="63" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+<% unless session[:user_id].nil? %>
+<ul class="nav nav-pills" >
+  <li>
+    <%=link_to "Dashboard", "leads#index" %>
+  </li>
+  <li>
+    <%=link_to "Leads", "leads#index" %>
+  </li>
+</ul>
+  
+
+  <div class="pull-right" id="login">
+    <em class="pull-left"><%= User.find(session[:user_id]).name %></em>
+    <img src="<%= User.find(session[:user_id]).gravatar_url(50) %>" class="img-rounded pull-right"/>
+  </div>
+
+<% end %>
