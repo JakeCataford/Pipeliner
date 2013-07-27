@@ -18,6 +18,8 @@ end
 
 gem 'faker'
 
+gem "dropbox", "~> 1.3.0"
+
 gem 'google_auth', :git => "git://github.com/JakeCataford/google_auth"
 gem 'ruby-openid', :git => "git://github.com/kendagriff/ruby-openid.git", :ref => '79beaa41'
 
