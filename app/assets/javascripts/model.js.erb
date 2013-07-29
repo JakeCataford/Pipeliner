@@ -26,6 +26,9 @@ $(document).ready(function() {
   $('.canvas-zone').width(window.innerWidth - $('.sidebar').width());
   $('.canvas-zone').height(window.innerHeight - 60);
 
+  $('.sidebar').height(window.innerHeight - 60);
+  $('#padfix').height(window.innerHeight - 60);
+
   var container;
 
   var camera, controls, scene, renderer;
@@ -137,11 +140,10 @@ $(document).ready(function() {
 
       function onWindowResize() {
 
-        camera.aspect = window.innerWidth - $('.sidebar').width() / window.innerHeight - 60;
-        camera.updateProjectionMatrix();
-
+        camera.aspect = window.innerWidth - $('.sidebar').width() / (window.innerHeight - 60);
         renderer.setSize( window.innerWidth - $('.sidebar').width(), window.innerHeight - 60);
-
+        $('.sidebar').height(window.innerHeight - 60);
+        camera.updateProjectionMatrix();
         render();
 
       }

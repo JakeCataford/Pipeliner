@@ -7,6 +7,8 @@
 
 THREE.OrbitControls = function ( object, domElement ) {
 
+  window.canControl = true;
+
   this.object = object;
   this.domElement = ( domElement !== undefined ) ? domElement : document;
 
@@ -31,8 +33,8 @@ THREE.OrbitControls = function ( object, domElement ) {
   this.minPolarAngle = 0; // radians
   this.maxPolarAngle = Math.PI; // radians
 
-  this.minDistance = 0;
-  this.maxDistance = Infinity;
+  this.minDistance = 5;
+  this.maxDistance = 100;
 
   this.keys = { LEFT: 37, UP: 38, RIGHT: 39, BOTTOM: 40 };
 
@@ -64,7 +66,11 @@ THREE.OrbitControls = function ( object, domElement ) {
 
   var changeEvent = { type: 'change' };
 
-
+  $(".canvas-zone").hover(function() {
+    window.canControl = true;
+  }, function() {
+    window.canControl = false;
+  })
   this.rotateLeft = function ( angle ) {
 
     if ( angle === undefined ) {
@@ -353,10 +359,17 @@ THREE.OrbitControls = function ( object, domElement ) {
 
   }
 
-  this.domElement.addEventListener( 'contextmenu', function ( event ) { event.preventDefault(); }, false );
+  //this.domElement.addEventListener( 'contextmenu', function ( event ) { event.preventDefault(); }, false );
   this.domElement.addEventListener( 'mousedown', onMouseDown, false );
-  this.domElement.addEventListener( 'mousewheel', onMouseWheel, false );
-  this.domElement.addEventListener( 'DOMMouseScroll', onMouseWheel, false ); // firefox
+  this.domElement.addEventListener('mousewheel',function(event){
+    if(window.canControl) {
+      onMouseWheel(event);
+      event.preventDefault();
+      return false;
+    } else {
+      return true;
+    }
+  }, !window.canControl); // firefox
   this.domElement.addEventListener( 'keydown', onKeyDown, false );
 
 };
