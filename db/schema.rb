@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130726143332) do
+ActiveRecord::Schema.define(version: 20130729164859) do
 
   create_table "comments", force: true do |t|
     t.integer  "user_id"
@@ -26,6 +26,18 @@ ActiveRecord::Schema.define(version: 20130726143332) do
     t.string   "format"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "file_file_name"
+    t.string   "file_content_type"
+    t.integer  "file_file_size"
+    t.datetime "file_updated_at"
+    t.string   "normal_file_name"
+    t.string   "normal_content_type"
+    t.integer  "normal_file_size"
+    t.datetime "normal_updated_at"
+    t.string   "diffuse_file_name"
+    t.string   "diffuse_content_type"
+    t.integer  "diffuse_file_size"
+    t.datetime "diffuse_updated_at"
   end
 
   create_table "models", force: true do |t|
@@ -60,6 +72,10 @@ ActiveRecord::Schema.define(version: 20130726143332) do
     t.string   "type"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "file_file_name"
+    t.string   "file_content_type"
+    t.integer  "file_file_size"
+    t.datetime "file_updated_at"
   end
 
   create_table "users", force: true do |t|

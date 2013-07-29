@@ -3,6 +3,10 @@ Pipeliner::Application.routes.draw do
 
   post '/comment/create', :to => 'comment#create'
 
+
+  get '/model/revise/:id', :to => 'revision#new'
+  post '/model/revise/:id', :to => 'revision#create'
+
   resources :users
   resources :model
   match '/login', :to => 'sessions#new', :as => :login, via: [:get, :post]

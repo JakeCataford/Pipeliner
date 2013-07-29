@@ -1,0 +1,17 @@
+<div class="field">
+<h3>Make a Revision: <%= @model.name %></h3>
+<div class='span5 well'>
+<%= form_for :mesh, :html => { :multipart => true } do |f| %>
+<div class="field">
+  <%= f.label :file %>
+  <%= f.file_field :file %> 
+  <%= f.label :normal %>
+  <%= f.file_field :normal %>
+  <%= f.label :diffuse %>
+  <%= f.file_field :diffuse %>  
+</div>
+<button type="submit" class="submitter btn btn-success">Submit</button>
+<% end %>
+</form>
+</div>
+</div>

@@ -3,6 +3,26 @@ class ModelController < ApplicationController
 
   def show
     @revisions = Revision.find_all_by_model_id(@model.id, :order => :created_at)
+
+    begin
+      @meshurl = @revisions.last.mesh.file.url
+    rescue
+      @meshurl = "/default.dae"
+    end
+
+    begin
+      @normalurl = @revisions.last.mesh.normal.url
+    rescue
+      @normalurl = ""
+    end
+
+    begin
+      @diffuseurl = @revisions.last.mesh.diffuse.url
+    rescue
+      @diffuseurl = ""
+    end
+
+
   end
 
   private
